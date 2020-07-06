@@ -538,15 +538,15 @@ a {
 .section-home {
     height: 100vh;
     position: relative;
-    /* background-image: url("../images/banner.jpg"); */
+    /* background-image: url("../images/banner.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 .overlay {
     position: relative;
     height: 100%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     z-index: 3;
     color: #fff;
 }

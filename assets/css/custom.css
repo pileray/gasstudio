@@ -2,13 +2,6 @@
 
 /* Top */
 
-/* .top-title {
-    font-family: 'Poppins';
-    font-weight: bold;
-    letter-spacing: 0;
-    color: white;
-}  */
-
 .top-video {
     position: absolute;
     position: fixed;
@@ -22,4 +15,9 @@
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.top-contents {
+    position: absolute;
+    top: 0;
 }
