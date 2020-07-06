@@ -48,7 +48,7 @@
     * Section Scroll - Navbar
     /* ---------------------------------------------- */
     
-    $('.navbar-nav a').on('click', function(event) {
+    $('.navbar-nav a, .btn-link').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 0
@@ -185,6 +185,56 @@
             backDelay: 3000
         });
     }
+
+    // modal内youtube動画自動再生停止
+
+    $('.portfolio-item-1').on('click', function () {
+        var src = 'https://www.youtube.com/embed/VBRPJGVU1bo';
+        $('#portfolio-item-1 iframe').attr('src', src);
+    });
+    $('#portfolio-item-1').on('hidden.bs.modal', function () {
+        $('#portfolio-item-1 iframe').removeAttr('src');
+    });
+
+    $('.portfolio-item-2').on('click', function () {
+        var src = 'https://www.youtube.com/embed/VBRPJGVU1bo';
+        $('#portfolio-item-2 iframe').attr('src', src);
+    });
+    $('#portfolio-item-2').on('hidden.bs.modal', function () {
+        $('#portfolio-item-2 iframe').removeAttr('src');
+    });
+
+    $('.portfolio-item-3').on('click', function () {
+        var src = 'https://www.youtube.com/embed/VBRPJGVU1bo';
+        $('#portfolio-item-1 iframe').attr('src', src);
+    });
+    $('#portfolio-item-3').on('hidden.bs.modal', function () {
+        $('#portfolio-item-1 iframe').removeAttr('src');
+    });
+
+    $('.portfolio-item-4').on('click', function () {
+        var src = 'https://www.youtube.com/embed/VBRPJGVU1bo';
+        $('#portfolio-item-1 iframe').attr('src', src);
+    });
+    $('#portfolio-item-4').on('hidden.bs.modal', function () {
+        $('#portfolio-item-1 iframe').removeAttr('src');
+    });
+
+    $('.portfolio-item-5').on('click', function () {
+        var src = 'https://www.youtube.com/embed/VBRPJGVU1bo';
+        $('#portfolio-item-1 iframe').attr('src', src);
+    });
+    $('#portfolio-item-5').on('hidden.bs.modal', function () {
+        $('#portfolio-item-1 iframe').removeAttr('src');
+    });
+
+    $('.portfolio-item-6').on('click', function () {
+        var src = 'https://www.youtube.com/embed/VBRPJGVU1bo';
+        $('#portfolio-item-1 iframe').attr('src', src);
+    });
+    $('#portfolio-item-6').on('hidden.bs.modal', function () {
+        $('#portfolio-item-1 iframe').removeAttr('src');
+    });
 
 
 }(window.jQuery);
