@@ -1,310 +1,325 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>映像制作・動画制作なら『GAS STUDIO』</title>
-	<meta name="description" content="映像制作ならハイクオリティでリーズナブルな『GAS _ STUDIO』にお任せください。" />
-	<meta name="keywords" content="動画, 動画制作, 映像, 映像制作, モーショングラフィックス, After Effects, premiere, YouTube, ニコニコ動画, ポートフォリオ" />
-	<meta name="author" content="RyosukeFukui" />
-	<meta name="theme-color" content="#2a2d35">
-	<link rel="icon" href="assets/images/favicon.png" type="image/npg" sizes="16x16">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>映像制作・動画制作なら『GAS STUDIO』</title>
+  <meta name="description" content="映像制作ならハイクオリティでリーズナブルな『GAS _ STUDIO』にお任せください。" />
+  <meta name="keywords" content="動画, 動画制作, 映像, 映像制作, モーショングラフィックス, After Effects, premiere, YouTube, ニコニコ動画, ポートフォリオ" />
+  <meta name="author" content="RyosukeFukui" />
+  <meta name="theme-color" content="#2a2d35">
+  <link rel="icon" href="assets/images/favicon.png" type="image/npg" sizes="16x16">
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" />
 
-	<link rel="stylesheet" type="text/css" href="assets/css/photoswipe.min.css" />	
-	<link rel="stylesheet" type="text/css" href="assets/css/default-skin.min.css" />
-	
-	<!-- DiyaTemplate style Css -->
-	<link href="assets/css/diya.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/photoswipe.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/default-skin.min.css" />
 
-	<!-- Custom style Css -->
-	<link href="assets/css/custom.css" rel="stylesheet">
+  <!-- DiyaTemplate style Css -->
+  <link href="assets/css/diya.css" rel="stylesheet">
+
+  <!-- Custom style Css -->
+  <link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
 
-	<!-- START: Preloader -->
-	<div id="preloader" class="preloader">
-		<div class="spinner-grow text-dark" role="status">
-			<span class="sr-only">Loading...</span>
-		</div>
-	</div>
-	<!-- END: Preloader -->
+  <!-- START: Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="spinner-grow text-dark" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- END: Preloader -->
 
-    <div class="page-wrapper">
+  <div class="page-wrapper">
 
-		<nav class="navbar navbar-expand-lg navbar-custom navbar-light fixed-top">
-			<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light fixed-top">
+      <div class="container">
 
-				<a class="navbar-brand  mr-auto" href="index.html" style="font-family: 'Poppins';">GAS _ STUDIO
-					<!-- <img src="assets/images/logo.png" alt="Logo"> -->
-				</a>
+        <a class="navbar-brand  mr-auto" href="index.html" style="font-family: 'Poppins';">GAS _ STUDIO
+          <!-- <img src="assets/images/logo.png" alt="Logo"> -->
+        </a>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
-					<svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60"><path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"></path><path class="line middle" d="m 30,50 h 40"></path><path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"></path></svg>
-				</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+          aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
+          <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60">
+            <path class="line top"
+              d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40">
+            </path>
+            <path class="line middle" d="m 30,50 h 40"></path>
+            <path class="line bottom"
+              d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40">
+            </path>
+          </svg>
+        </button>
 
-				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="navbar-nav ml-auto">
-						<li><a class="nav-link active" href="#home">home</a></li>
-						<li><a class="nav-link active" href="#about">about</a></li>
-						<li><a class="nav-link" href="#services">Service</a></li>
-						<li><a class="nav-link" href="#work">Works</a></li>
-						<li><a class="nav-link" href="#contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto">
+            <li><a class="nav-link active" href="#home">home</a></li>
+            <li><a class="nav-link active" href="#about">about</a></li>
+            <li><a class="nav-link" href="#services">Service</a></li>
+            <li><a class="nav-link" href="#work">Works</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    	<!-- START: HOME -->		
+    <!-- START: HOME -->
     <section class="section-home" id="home">
       <video class="top-video" src="assets/images/nc219945.mp4" autoplay playsinline muted loop></video>
       <div class="overlay">
         <div class="top-contents">
           <h2 class="mb-2 font-weight-bold text-white animated fadeInDown wow">※カッコいいキャッチ</h2>
-          <p class="display-2 animated fadeInDown wow font-weight-bold text-white" style="font-family: 'Poppins';">GAS _ STUDIO</p>
+          <p class="display-2 animated fadeInDown wow font-weight-bold text-white" style="font-family: 'Poppins';">GAS _
+            STUDIO</p>
           <p class="pl-2 mt-5 animated fadeInDown wow text-white">※宣伝文</p>
-          <a href="#contact" class="mt-5 ml-2 animated fadeInDown wow btn btn-link font-weight-bold">お見積りはコチラ</a>
+        </div>
+        <div class="text-center d-flex justify-content-center align-content-center">
+          <a href="#contact"
+            class="text-center animated fadeInDown wow btn btn-link font-weight-bold" style="font-size: 15px;">お見積りはコチラ</a>
         </div>
       </div>
       <!-- <a id="video" class="youtube-bg" data-property="{videoURL:'https://www.youtube.com/watch?v=VBRPJGVU1bo&t=16s',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a> -->
-    </section>	
-    	<!-- END: HOME -->
+    </section>
+    <!-- END: HOME -->
 
-		<!-- START: ABOUT -->
-		<section class="section section-about" id="about">
+    <!-- START: ABOUT -->
+    <section class="section section-about" id="about">
       <div class="section-head">
         <span>WHAT IS</span>
         <h2>GAS_STUDIO</h2>
       </div>
-			<div class="container">
-				<div class="row justify-content-center align-items-center">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
 
-					<div class="col-md-6">
-              <video style="width: 100%;" src="assets/images/nc219945.mp4" autoplay muted loop></video>
-					</div>
-					
-					<div class="col-md-6">
-						<div class="about-desc">
-							<div class="about-desc-content text-left">
-								<h2>※カッコいいキャッチ</h2>
-								<p class="mt-4 font-weight-light">※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン
+          <div class="col-md-6">
+            <video style="width: 100%;" src="assets/images/nc219945.mp4" autoplay muted loop></video>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-desc">
+              <div class="about-desc-content text-left">
+                <h2>※カッコいいキャッチ</h2>
+                <p class="mt-4 font-weight-light">※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン
                   ※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン※サービス概要ゾーン
                 </p>
                 <a href="#work" class="mt-3 mr-2 btn btn-link font-weight-bold">ご依頼はコチラ</a>
                 <a href="#work" class="mt-3 btn btn-link font-weight-bold">サンプルを確認</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: ABOUT -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: ABOUT -->
 
-		<!-- START: SERVICES -->
-		<section class="section section-dark section-services" id="services">
-			<div class="container">
-				<div class="section-head">
-					<span>WHAT I DO</span>
-					<h2>サービスの流れ</h2>
-				</div>
+    <!-- START: SERVICES -->
+    <section class="section section-dark section-services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span>WHAT I DO</span>
+          <h2>サービスの流れ</h2>
+        </div>
 
-				<div class="row mt-4">
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s">
-							<div class="services-list">
-								<div class="services-list-front services-list-1">
-									<div class="flip-content">
-										<h5 class="mb-0 font-weight-bold">1.ヒアリング</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fas fa-clipboard"></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0 font-weight-bold">ヒアリング</h5>
-											<p class=" mt-3">※説明文章</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<div class="services-list">
-								<div class="services-list-front services-list-2">
-									<div class="flip-content">
-										<h5 class="mb-0">※工程</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fas fa-palette  "></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">※工程</h5>
-											<p class=" mt-3">※説明</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-							<div class="services-list">
-								<div class="services-list-front services-list-3">
-									<div class="flip-content">
-										<h5 class="mb-0">※工程</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fas fa-compact-disc  "></i> 
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">※工程</h5>
-											<p class=" mt-3">※説明</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
-							<div class="services-list">
-								<div class="services-list-front services-list-4">
-									<div class="flip-content">
-										<h5 class="mb-0">※工程</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fa fa-puzzle-piece  " aria-hidden="true"></i>
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">※工程</h5>
-											<p class=" mt-3">※説明</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".8s">
-							<div class="services-list">
-								<div class="services-list-front services-list-5">
-									<div class="flip-content">
-										<h5 class="mb-0">※工程</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="fa fa-gamepad  " aria-hidden="true"></i> 
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">※工程</h5>
-											<p class=" mt-3">※説明</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
-							<div class="services-list">
-								<div class="services-list-front services-list-6">
-									<div class="flip-content">
-										<h5 class="mb-0">※工程</h5>
-									</div>
-								</div>
-								<div class="services-list-back">
-									<div class="flip-content">
-										<div class="services-list-icon">
-											<i class="far fa-chart-bar  "></i> 
-										</div>
-										<div class="mt-4">
-											<h5 class="mb-0">※工程</h5>
-											<p class=" mt-3">※せつめい</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        <div class="row mt-4">
+          <div class="col-sm-6 col-md-4">
+            <div class="services-flip wow fadeInUp" data-wow-duration="1.5s">
+              <div class="services-list">
+                <div class="services-list-front services-list-1">
+                  <div class="flip-content">
+                    <h5 class="mb-0 font-weight-bold">1.ヒアリング</h5>
+                  </div>
+                </div>
+                <div class="services-list-back">
+                  <div class="flip-content">
+                    <div class="services-list-icon">
+                      <i class="fas fa-clipboard"></i>
+                    </div>
+                    <div class="mt-4">
+                      <h5 class="mb-0 font-weight-bold">ヒアリング</h5>
+                      <p class=" mt-3">※説明文章</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
+              <div class="services-list">
+                <div class="services-list-front services-list-2">
+                  <div class="flip-content">
+                    <h5 class="mb-0">※工程</h5>
+                  </div>
+                </div>
+                <div class="services-list-back">
+                  <div class="flip-content">
+                    <div class="services-list-icon">
+                      <i class="fas fa-palette  "></i>
+                    </div>
+                    <div class="mt-4">
+                      <h5 class="mb-0">※工程</h5>
+                      <p class=" mt-3">※説明</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
+              <div class="services-list">
+                <div class="services-list-front services-list-3">
+                  <div class="flip-content">
+                    <h5 class="mb-0">※工程</h5>
+                  </div>
+                </div>
+                <div class="services-list-back">
+                  <div class="flip-content">
+                    <div class="services-list-icon">
+                      <i class="fas fa-compact-disc  "></i>
+                    </div>
+                    <div class="mt-4">
+                      <h5 class="mb-0">※工程</h5>
+                      <p class=" mt-3">※説明</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+              <div class="services-list">
+                <div class="services-list-front services-list-4">
+                  <div class="flip-content">
+                    <h5 class="mb-0">※工程</h5>
+                  </div>
+                </div>
+                <div class="services-list-back">
+                  <div class="flip-content">
+                    <div class="services-list-icon">
+                      <i class="fa fa-puzzle-piece  " aria-hidden="true"></i>
+                    </div>
+                    <div class="mt-4">
+                      <h5 class="mb-0">※工程</h5>
+                      <p class=" mt-3">※説明</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".8s">
+              <div class="services-list">
+                <div class="services-list-front services-list-5">
+                  <div class="flip-content">
+                    <h5 class="mb-0">※工程</h5>
+                  </div>
+                </div>
+                <div class="services-list-back">
+                  <div class="flip-content">
+                    <div class="services-list-icon">
+                      <i class="fa fa-gamepad  " aria-hidden="true"></i>
+                    </div>
+                    <div class="mt-4">
+                      <h5 class="mb-0">※工程</h5>
+                      <p class=" mt-3">※説明</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="services-flip wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+              <div class="services-list">
+                <div class="services-list-front services-list-6">
+                  <div class="flip-content">
+                    <h5 class="mb-0">※工程</h5>
+                  </div>
+                </div>
+                <div class="services-list-back">
+                  <div class="flip-content">
+                    <div class="services-list-icon">
+                      <i class="far fa-chart-bar  "></i>
+                    </div>
+                    <div class="mt-4">
+                      <h5 class="mb-0">※工程</h5>
+                      <p class=" mt-3">※せつめい</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- END: SERVICES -->
-    
+
     <section class="section section-about" id="about">
-			<div class="container">
+      <div class="container">
         <div class="section-head">
           <h2>クリエイター</h2>
         </div>
-				<div class="row justify-content-center align-items-center">
-					<div class="col-md-6">
-						<div class="section-about--img wow fadeInUp">
-							<img class="img-fluid mx-auto d-block" src="assets/images/avatar.jpg" alt="About Picture">
-						</div>
-					</div>
-					
-					<div class="col-md-6">
-						<div class="about-desc">
-							<div class="ml-3 about-desc-content text-left">
-								<h2>※名前</h2>
-								<p class="mt-4 font-weight-light">※自己紹介</p>
-							</div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <div class="section-about--img wow fadeInUp">
+              <img class="img-fluid mx-auto d-block" src="assets/images/avatar.jpg" alt="About Picture">
+            </div>
+          </div>
 
-							<ul class="about-desc-social text-left my-4 list-unstyled list-inline">
+          <div class="col-md-6">
+            <div class="about-desc">
+              <div class="ml-3 about-desc-content text-left">
+                <h2>※名前</h2>
+                <p class="mt-4 font-weight-light">※自己紹介</p>
+              </div>
+
+              <ul class="about-desc-social text-left my-4 list-unstyled list-inline">
                 <li class="list-inline-item"><a class="hover-state" href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li class="list-inline-item"><a class="hover-state" href="#"><i class="fab fa-instagram"></i></a></li>
                 <li class="list-inline-item"><a class="hover-state" href="#"><i class="fab fa-youtube"></i></a></li>
               </ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: ABOUT -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: ABOUT -->
 
-		<!--START: WORK -->   
-		<section class="section section-light section-work" id="work">
-			<div class="container">
-				<div class="section-head text-center">
-					<span>Portfolio</span>
-					<h2>サンプル</h2>
-				</div>
+    <!--START: WORK -->
+    <section class="section section-light section-work" id="work">
+      <div class="container">
+        <div class="section-head text-center">
+          <span>Portfolio</span>
+          <h2>サンプル</h2>
+        </div>
 
-				<ul id="filter" class="filter mb-5">
-					<li class="active" data-group="all">All</li>
-					<li class="" data-group="slideshow">ジャンル1</li>
-					<li class="" data-group="video">ジャンル2</li>
-					<li class="" data-group="image">ジャンル3</li>
-				</ul>
-			</div>
+        <ul id="filter" class="filter mb-5">
+          <li class="active" data-group="all">All</li>
+          <li class="" data-group="slideshow">ジャンル1</li>
+          <li class="" data-group="video">ジャンル2</li>
+          <li class="" data-group="image">ジャンル3</li>
+        </ul>
+      </div>
 
-			<div class="container">
-				<div class="list-items-container row my-gallery">
+      <div class="container">
+        <div class="list-items-container row my-gallery">
 
-          <div class="portfolio-item-1 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia" data-groups="all slideshow">
+          <div class="portfolio-item-1 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia"
+            data-groups="all slideshow">
             <div data-toggle="modal" data-target="#portfolio-item-1">
-              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description"/>
+              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description" />
               <h4 class="portfolio-item-title mt-3 mb-2">※タイトル</h4>
             </div>
           </div>
@@ -317,7 +332,9 @@
                   </button>
                 </div>
                 <div class="modal-body py-5">
-                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/VBRPJGVU1bo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/VBRPJGVU1bo" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                   <h3 class="mt-2">※タイトル</h3>
                   <p class="mt-2">※モーダルのコンテンツ文。</p>
                 </div>
@@ -325,9 +342,10 @@
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
 
-          <div class="portfolio-item-2 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia" data-groups="all slideshow">
+          <div class="portfolio-item-2 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia"
+            data-groups="all slideshow">
             <div data-toggle="modal" data-target="#portfolio-item-2">
-              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description"/>
+              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description" />
               <h4 class="portfolio-item-title mt-3 mb-2">※タイトル</h4>
             </div>
           </div>
@@ -346,9 +364,10 @@
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
 
-          <div class="portfolio-item-3 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia" data-groups="all video">
+          <div class="portfolio-item-3 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia"
+            data-groups="all video">
             <div data-toggle="modal" data-target="#portfolio-item-3">
-              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description"/>
+              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description" />
               <h4 class="portfolio-item-title mt-3 mb-2">※タイトル</h4>
             </div>
           </div>
@@ -367,9 +386,10 @@
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
 
-          <div class="portfolio-item-4 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia" data-groups="all image">
+          <div class="portfolio-item-4 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia"
+            data-groups="all image">
             <div data-toggle="modal" data-target="#portfolio-item-4">
-              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description"/>
+              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description" />
               <h4 class="portfolio-item-title mt-3 mb-2">※タイトル</h4>
             </div>
           </div>
@@ -388,9 +408,10 @@
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
 
-          <div class="portfolio-item-5 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia" data-groups="all video">
+          <div class="portfolio-item-5 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia"
+            data-groups="all video">
             <div data-toggle="modal" data-target="#portfolio-item-5">
-              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description"/>
+              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description" />
               <h4 class="portfolio-item-title mt-3 mb-2">※タイトル</h4>
             </div>
           </div>
@@ -409,9 +430,10 @@
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
 
-          <div class="portfolio-item-6 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia" data-groups="all slideshow">
+          <div class="portfolio-item-6 col-sm-6 col-md-4 list-item mb-4 mb-md-5" itemprop="associatedMedia"
+            data-groups="all slideshow">
             <div data-toggle="modal" data-target="#portfolio-item-6">
-              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description"/>
+              <img src="assets/images/p4-4.jpg" itemprop="thumbnail" alt="Image description" />
               <h4 class="portfolio-item-title mt-3 mb-2">※タイトル</h4>
             </div>
           </div>
@@ -429,169 +451,172 @@
               </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
           </div><!-- /.modal -->
-					
-				</div>
-			</div>
-		</section>
-		<!--END: WORK -->
 
-		<!-- START: CONTACT -->
-		<section class="section section-dark section-contact" id="contact">
-			<div class="container">
-				<div class="section-head">
-					<span>say Hello</span>
-					<h2>お問い合わせ</h2>
-				</div>
+        </div>
+      </div>
+    </section>
+    <!--END: WORK -->
 
-			</div>
+    <!-- START: CONTACT -->
+    <section class="section section-dark section-contact" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span>say Hello</span>
+          <h2>お問い合わせ</h2>
+        </div>
 
-			<div class="contact-Otherdetails">
-				<div class="container">
-					<div class="contact-form mt-5">
-						<form method="post" action="php/contact.php" id="contactForm"  data-toggle="validator">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="form-group mb-3">
-										<input name="name" id="name" type="text" class="form-control b-box" placeholder="お名前 *" required>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="form-group mb-3">
-										<input name="email" id="email" type="email" class="form-control b-box" placeholder="メールアドレス *" required>
-									</div>
-								</div>                                
-							</div>
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="form-group mb-3">
-										<input type="text" class="form-control b-box" id="subject" placeholder="タイトル" required>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="form-group mb-3">
-										<textarea name="comments" id="comments" rows="4" class="form-control b-box" placeholder="本文"></textarea>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12 mt-4 mb-5 text-center">
-									<button type="submit" class="submitBnt btn text-uppercase">送信する</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: CONTACT -->
+      </div>
 
-		<!--START: FOOTER-->
-		<footer class="footer section section-light">
-			<div class="container">
-				<p class="copyright text-center mb-0">&copy; GAS _ STUDIO | All Right Reserved</p>
-			</div>
-		</footer>
-		<!--END: FOOTER-->
-	</div>
+      <div class="contact-Otherdetails">
+        <div class="container">
+          <div class="contact-form mt-5">
+            <form method="post" action="php/contact.php" id="contactForm" data-toggle="validator">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group mb-3">
+                    <input name="name" id="name" type="text" class="form-control b-box" placeholder="お名前 *" required>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group mb-3">
+                    <input name="email" id="email" type="email" class="form-control b-box" placeholder="メールアドレス *"
+                      required>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group mb-3">
+                    <input type="text" class="form-control b-box" id="subject" placeholder="タイトル" required>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group mb-3">
+                    <textarea name="comments" id="comments" rows="4" class="form-control b-box"
+                      placeholder="本文"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mt-4 mb-5 text-center">
+                  <button type="submit" class="submitBnt btn text-uppercase">送信する</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: CONTACT -->
 
-	<!--START: Scroll to top-->
-	    <div class="scroll-up hover-state">
-		<a id="scroll-up"><i class="fas fa-arrow-up"></i></a>
-	</div>
-	<!--END: Scroll to top-->
+    <!--START: FOOTER-->
+    <footer class="footer section section-light">
+      <div class="container">
+        <p class="copyright text-center mb-0">&copy; GAS _ STUDIO | All Right Reserved</p>
+      </div>
+    </footer>
+    <!--END: FOOTER-->
+  </div>
 
-	<!-- Root element of PhotoSwipe. Must have class pswp. -->
-	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <!--START: Scroll to top-->
+  <div class="scroll-up hover-state">
+    <a id="scroll-up"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!--END: Scroll to top-->
 
-	    <!-- Background of PhotoSwipe. 
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
 	         It's a separate element, as animating opacity is faster than rgba(). -->
-	    <div class="pswp__bg"></div>
+    <div class="pswp__bg"></div>
 
-	    <!-- Slides wrapper with overflow:hidden. -->
-	    <div class="pswp__scroll-wrap">
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
 
-	        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-	        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-	        <div class="pswp__container">
-	            <div class="pswp__item"></div>
-	            <div class="pswp__item"></div>
-	            <div class="pswp__item"></div>
-	        </div>
+      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
 
-	        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-	        <div class="pswp__ui pswp__ui--hidden">
-	            <div class="pswp__top-bar">
-	                <!--  Controls are self-explanatory. Order can be changed. -->
-	                <div class="pswp__counter"></div>
-	                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-	                <button class="pswp__button pswp__button--share" title="Share"></button>
-	                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-	                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <!--  Controls are self-explanatory. Order can be changed. -->
+          <div class="pswp__counter"></div>
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-	                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-	                <!-- element will get class pswp__preloader--active when preloader is running -->
-	                <div class="pswp__preloader">
-	                    <div class="pswp__preloader__icn">
-	                      <div class="pswp__preloader__cut">
-	                        <div class="pswp__preloader__donut"></div>
-	                      </div>
-	                    </div>
-	                </div>
-	            </div>
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-	            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-	                <div class="pswp__share-tooltip"></div> 
-	            </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
 
-	            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-	            </button>
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
 
-	            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-	            </button>
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
 
-	            <div class="pswp__caption">
-	                <div class="pswp__caption__center"></div>
-	            </div>
-	        </div>
-	    </div>
-	</div>
-	
-	<!-- Javascript files -->
-	
-	<script src="assets/js/jquery.js"></script>
-	
-	
-	<!-- Popper JS -->
-	<script src="assets/bootstrap/js/popper.js"></script>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	<!-- Latest compiled JavaScript -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	
-	<script src="assets/js/swiper.min.js"></script>
-	<script src="assets/js/wow.js"></script>
-	<script src="assets/js/typed.js"></script>
-	<script src="assets/js/jquery.easing.min.js"></script>
-	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+  <!-- Javascript files -->
 
-	<!-- Popup Js -->
-	<script src="assets/js/photoswipe.min.js"></script>
-	<script src="assets/js/photoswipe-ui-default.min.js"></script>
-	<script src="assets/js/pswp.js"></script>
+  <script src="assets/js/jquery.js"></script>
 
-	<!-- Portfolio Shuffler -->
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
-	<script src="assets/js/jquery.shuffle.min.js"></script>
-	<script src="assets/js/custom-shuffle-init.js"></script>
 
-	<!-- Youtube Video Player -->
-	<script src="assets/js/jquery.mb.YTPlayer.js"></script>
-	
-	<!-- Contact Js -->
-	<script src="assets/js/contact.js"></script>
-	
-	<!-- Custom Js -->
-	<script src="assets/js/custom.js"></script>
+  <!-- Popper JS -->
+  <script src="assets/bootstrap/js/popper.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/typed.js"></script>
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <script src="assets/js/jquery.parallax-1.1.3.js"></script>
+
+  <!-- Popup Js -->
+  <script src="assets/js/photoswipe.min.js"></script>
+  <script src="assets/js/photoswipe-ui-default.min.js"></script>
+  <script src="assets/js/pswp.js"></script>
+
+  <!-- Portfolio Shuffler -->
+  <script src="assets/js/imagesloaded.pkgd.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/custom-shuffle-init.js"></script>
+
+  <!-- Youtube Video Player -->
+  <script src="assets/js/jquery.mb.YTPlayer.js"></script>
+
+  <!-- Contact Js -->
+  <script src="assets/js/contact.js"></script>
+
+  <!-- Custom Js -->
+  <script src="assets/js/custom.js"></script>
 </body>
+
 </html>

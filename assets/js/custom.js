@@ -29,11 +29,11 @@
 
         // Navbar visible
 
-        if ($(this).scrollTop() > 500 ) {
-            $('.navbar-custom').fadeIn(400);
-        } else {
-            $('.navbar-custom').fadeOut(400);
-        }
+        // if ($(this).scrollTop() > 500 ) {
+        //     $('.navbar-custom').fadeIn(400);
+        // } else {
+        //     $('.navbar-custom').fadeOut(400);
+        // }
 
         // Back to Top
 

@@ -458,10 +458,10 @@ a {
     position: relative;
     border-bottom: 1px solid #eee;
 }
-
+/* 
 .navbar.navbar-custom {
     display: none;
-}
+} */
 
 .navbar.fixed-top {
     position: fixed !important;
@@ -536,6 +536,7 @@ a {
 /* ---------------------------------------------- */
 
 .section-home {
+    margin-top: 62px;
     height: 100vh;
     position: relative;
     /* background-image: url("../images/banner.jpg");
