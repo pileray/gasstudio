@@ -544,6 +544,13 @@ a {
     background-position: center; */
 }
 
+@media only screen and (max-width:990px) {
+    .section-home {
+        margin-top: 90px;
+        height: 60vh;
+    }
+}
+
 .overlay {
     position: relative;
     height: 100%;
