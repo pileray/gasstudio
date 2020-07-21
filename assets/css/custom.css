@@ -17,7 +17,19 @@
     transform: translate(-50%, -50%);
 }
 
-/* .top-contents {
+.top-contents {
     position: absolute;
-    top: 0;
-} */
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width:990px) {
+    .portfolio-video {
+        height: 250px;
+    }
+}

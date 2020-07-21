@@ -226,6 +226,7 @@ a {
 .btn:hover {
     color: #fff;
     box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+    text-decoration: none;
 }
 
 .btn-outline {
@@ -547,7 +548,7 @@ a {
 @media only screen and (max-width:990px) {
     .section-home {
         margin-top: 90px;
-        height: 60vh;
+        height: 70vh;
     }
 }
 
@@ -1081,23 +1082,23 @@ li.active:after {
 }
 
 .services-list-2 {
-    background-image: url("../images/services2.jpg");
+    background-image: url("../images/planning.jpg");
 }
 
 .services-list-3 {
-    background-image: url("../images/services3.jpg");
+    background-image: url("../images/shooting.jpg");
 }
 
 .services-list-4 {
-    background-image: url("../images/services4.jpg");
+    background-image: url("../images/tentative_editing.jpg");
 }
 
 .services-list-5 {
-    background-image: url("../images/services5.jpg");
+    background-image: url("../images/editing.jpg");
 }
 
 .services-list-6 {
-    background-image: url("../images/services6.jpg");
+    background-image: url("../images/complete.jpg");
 }
 
 
